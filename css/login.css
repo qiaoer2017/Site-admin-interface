@@ -51,16 +51,23 @@ input:focus {
     border: 1px solid #b5b9ff;
     outline: none;
 }
-input[type="button"] {
+input[type="submit"] {
     border: none;
     outline: none;
     width: 100px;
     height: 28px;
     background: darkturquoise;
     color: white;
+    font-size:15px;
     cursor: pointer;
 }
 
 .loginmain ul li img {
     margin-left: 100px;
+}
+
+span#tip {
+    display: inline-block;
+    width: 110px;
+    font-size: 13px;
 }
